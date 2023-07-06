@@ -1,4 +1,4 @@
 numpy == 1.22.0
 pandas == 1.2.4
-scipy == 1.5.3
+scipy == 1.10.0
 tqdm == 4.61.0
