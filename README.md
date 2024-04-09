@@ -12,8 +12,19 @@ We have tested the software successfully using Ubuntu 22.04, running Python 3.10
 jupyterlab 4.1.6
 numpy 1.20.3
 pandas 1.2.4
+matplotlib 3.6.2
 scipy 1.5.3
 tqdm 4.61.0
+```
+
+The software was additionally tested on Red Hat Enterprise Linux 9.2 running Python 3.10.8, and these package versions:
+```
+jupyterlab 4.1.4
+numpy 1.24.4
+pandas 2.1.4
+matplotlib 3.6.2
+scipy 1.11.4
+tqdm 4.66.1
 ```
 
 ## Installation
@@ -31,7 +42,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Installation should complete in a few minutes if installing from wheels. 
+Installation should complete in a few minutes if installing from wheels, and 1-2 hours if recompiling numpy and pandas is needed.
 
 ## Running the Examples
 
